@@ -7,32 +7,54 @@ header h1{
 nav ul{
     border: 0.2px solid black;
     list-style: none;
-    text-align: center;
-    display: inline-block;
+    text-align: right;
     width: 100%;
+    border: 3px solid white;
+}
+ul li{
+    display: inline-block;
+    border: 30px solid white
 }
 main {
     border: 0.2px solid black;
     width: 80%;
-}
-aside {
-    border: 0.2px solid black;
-    width: 20%;
-}
-p .fato{
-    width: 300px;
-}
-div .fato {
     float: left;
-    width: 20%;
+}
+article {
+    text-align: center;
+    width: 100%;
+}
+table {
+    width: 30%;
+    position: absolute;
+    left: 200px;
+    align-content: center;
+}
+section h3 {
+    color: white;
+    background-color: cadetblue;
+    text-align: center;
+}
+.fato1, .fato2, .fato3 {
+    border: 0.2px solid black;
+    float: left;
+    width: 25%;
 }
 .foto-fato {
-    width: 300px;
+    width: 100px;
     border-radius: 50%;
+   
+}
+aside {
+    float: right;
+    border: 0.2px solid black;
+    width: 15%;
 }
 footer {
     font-size: 12px;
     text-align: center;
     padding: 20px;
     background-color: pink;
+    width: 100%;
+    
 }
