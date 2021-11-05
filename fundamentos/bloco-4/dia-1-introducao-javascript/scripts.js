@@ -1,15 +1,19 @@
-const myName = "Telme";
-const birthCity = "Contagem";
-let birthYear = 1988;
+let patientId = 50;
+let isEnrolled = true;
+const patientInfo = {
+  firstName: 'Ana',
+  lastName: 'Santos',
+};
+const patientEmail = 'ana@email.com';
 
-console.log(myName);
-console.log(birthCity);
-console.log(birthYear);
+console.log(typeof patientId);
+console.log(typeof isEnrolled);
+console.log(typeof patientInfo);
+console.log(typeof patientEmail);
 
-birthYear = 2030;
-console.log(birthYear);
+console.log(typeof patientAge);
+// patientAge não foi declarada, logo ela aparece como undefined.
 
-birthCity = "Belo Horizonte";
-console.log(birthCity);
-//birthYear foi definido como constante (const), logo não pode ser alterada.
-
+patientId = '50';
+console.log(typeof patientId);
+// quando entre aspas, a idade do paciente se torna uma variável do tipo string.
