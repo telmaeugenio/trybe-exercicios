@@ -1,19 +1,9 @@
-let patientId = 50;
-let isEnrolled = true;
-const patientInfo = {
-  firstName: 'Ana',
-  lastName: 'Santos',
-};
-const patientEmail = 'ana@email.com';
+const base = 5;
+const height = 8;
+const area = base * height;
 
-console.log(typeof patientId);
-console.log(typeof isEnrolled);
-console.log(typeof patientInfo);
-console.log(typeof patientEmail);
+console.log(area);
 
-console.log(typeof patientAge);
-// patientAge não foi declarada, logo ela aparece como undefined.
+const perimeter = 2 * base + 2* height;
 
-patientId = '50';
-console.log(typeof patientId);
-// quando entre aspas, a idade do paciente se torna uma variável do tipo string.
+console.log(perimeter);
