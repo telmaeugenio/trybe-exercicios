@@ -1,12 +1,19 @@
 
-function verificaPalindrome(palavra = 'arara') {
-    let arvalap = palavra.reverse();
-    if (palavra == arvalap) {
+function verificaPalindrome(palavra) {
+    let palavra2 = [];
+ for (let key in palavra) {
+     palavra2.push(palavra[key])
+ }
+    let arvalap = palavra2.reverse();
+for (let key in palavra) {
+    if (palavra[key] === arvalap[key]) {
         return true;
     } else {
         return false;
     }
-    console.log(arvalap);
-    }
-
-    console.log(verificaPalindrome());
+}
+}
+// Teste com 'arara'
+console.log(verificaPalindrome('arara'));
+// Teste com 'desenvolvimento'
+console.log(verificaPalindrome('desenvolvimento'));
