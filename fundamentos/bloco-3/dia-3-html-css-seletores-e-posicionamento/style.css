@@ -9,6 +9,7 @@
   .width-and-height {
     height: 50px;
     width: 50px;
+    border: none;
   }
   
   /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
