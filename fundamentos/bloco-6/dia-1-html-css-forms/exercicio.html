@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício de Fixação: box model</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Submeter palestra</h1>
+        <p>Quer palestrar na nossa conferência? Preencha o formulário!</p>
+    </header>
+
+    <main>
+        <form action="" method="get">
+            <label for="full-name-id">Nome</label>
+                <input type="text" name="full-name" id="full-name-id" required>
+        <br>
+        <br>
+                <fieldset>
+            <legend>Tipo de palestra</legend>
+            <input type="radio" name="talk-type" value="main-stage" id="talk-type-1">
+            <label for="talk-type-1">Palco principal</label>
+            <input type="radio" name="talk-type" value="workshop" id="talk-type-2">
+            <label for="talk-type-2">Workshop</label>
+        </fieldset>
+        <br>
+        <br>
+        <div>
+        <label for="tshirt-size">Tamanho da camisa</label>
+        <select name="tshirt-size" id="tshirt-size">
+            <option value="P">Pequeno</option>
+            <option value="M">Médio</option>
+            <option value="G">Grande</option>
+        </select>
+        </div>
+        <br><Br>
+        <label for="abstract">Resumo da palestra</label>
+        <br><br>
+        <textarea name="abstract" id="abstract" cols=30 rows=10 placeholder="Explique o conteúdo da sua palestra"></textarea>
+        </form>
+        <br><br>
+        <input type="checkbox" name="available" value="true" id="available">
+        <label for="available">Confirmo que estou disponível na data do evento.</label>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </main>
+</body>
+</html>
