@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+header {
+    background-color: coral;
+    padding: 10px;
+}
+  header p {
+      font-size: x-large;
+      text-align: center;
+  }
+  nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+      color: beige;
+  }
+  .container {
+      display: flex;
+
+  }
+  .aside-one {
+      order: 1;
+  }
+  .aside-two {
+    order: 3;
+}
+.main-content {
+    order: 2;
+}
+footer {
+    background-color: coral;
+    padding: 10px;
+}
+footer h3 {
+    font-size: large;
+    text-align: center;
+    color: beige
+}
+footer p {
+    font-style: italic;
+    text-align: justify;
+}
